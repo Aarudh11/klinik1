@@ -1,0 +1,369 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0463FA;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #EFF5FF;
+  --bs-dark: #1B2C51;
+}
+  
+  
+  
+  
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1400px;
+    margin:  0 auto;
+    font-family: "Open Sans",sans-serif;
+  }
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgb(246, 250, 250);
+    padding-inline: 40px;
+  }
+  .sub-nav2 ul{
+    display: flex;
+    column-gap: 20px;
+  }
+  .sub-nav2 ul li{
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  .sub-nav2 li a,.sub-nav1 a,.sub-nav2 a{
+    text-decoration:none;
+  }
+  .sub-nav1 {
+    padding-top: 15px;
+  }
+  .sub-nav3{
+    display: none;
+  }
+  .sub-nav2 a h4{
+    border: 1px solid blue;
+    padding: 15px 20px;
+    color: white;
+    background-color: blue;
+  }
+  
+
+  /* section-1 */
+
+  .main-box1{
+    display: flex;
+    position: relative;
+  }
+  .sub-box1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .sub-box1{
+    flex: 0 0 50%;
+    color: var(--bs-light);
+  }
+  #sub-box1{
+    font-size: 30px;
+    padding-inline: 50px;
+    padding-block: 200px;
+    background-color: var(--bs-primary);
+  }
+  .sub-box1 h2{
+    font-size: 70px;
+    position: absolute;
+    top: 330px;
+    right: 120px;
+  }
+  .main-0{
+    display: flex;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 20px;
+  }
+  .sub{
+    padding-left: 25px;
+    border-left: 1px solid white;
+    margin-right: 60px
+  }
+  .sub p{
+    font-size: 18px;
+    padding-block: 5px;
+  }
+
+  /* section-2 */
+
+  .article-2{
+    padding: 50px 80px;
+  }
+  .sub-box21 button{
+     padding: 8px 25px ;
+     border: 1px solid var(--bs-blue);
+     background:none;
+     border-radius: 25px;
+    
+  }
+  .fa-check{
+    padding: 2px;
+    color: #0463FA;
+    border: 3px solid var(--bs-blue);
+    border-radius: 50%;
+  }
+  .sub-box21 a{
+    text-decoration: none;
+    padding: 15px 25px ;
+    border: 1px solid var(--bs-blue);
+    border-radius: 25px;
+    background-color: #0463FA;
+    color: #EFF5FF;
+
+  }
+  #a{
+    padding-bottom: 50px;
+  }
+  .img-21 img{
+    width: 300px;
+    border: 13px solid rgb(255, 253, 253);
+    border-radius: 5px;
+    position: absolute;
+    top: 280px;
+    left: -160px;
+  }
+  .main-box2{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+  .sub-box2{
+    flex: 0 0 15%;
+    position: relative;
+  }
+  .sub-box21{
+    flex: 0 0 40%;
+  }
+  .img2 img{
+    width: 400px;
+    
+  }
+  .sub-box21 h1{
+    font-size: 30px;
+    padding-block: 25px;
+  }
+  .sub-box21 p{
+    padding-block: 10px;
+    opacity: 0.7;
+  }
+
+
+  /* article-3 */
+
+  .article-3{
+    padding: 80px;
+  }
+  .sub-box3{
+    border: 1px solid  #d5e3f9;
+    flex: 0 0 30%;
+    padding: 60px 40px;
+    background-color: #d5e3f9;
+  }
+  
+
+  .main-box3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+   
+  }
+  .fs-4{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    color: #0463FA;
+    background-color: white;
+  }
+  .me-3{
+    color: #0463FA;
+    padding-right: 5px;
+  }
+  .sub-box3 a{
+    text-decoration: none;
+    border: 1px  white;
+    padding: 8px 15px;
+    border-radius: 25px;
+    background-color: white ;
+    color: black;
+  }
+  .sub-box3 p{
+    padding-block:  5px 25px;
+  }
+  .sub-box3 h3{
+    font-size: 25px;
+    padding-block: 15px;
+  }
+
+  /* article-4 */
+
+  .sub-box4 img{
+    width: 100%;
+  }
+  .main-box4{
+    display: flex;
+  }
+  .sub-box4{
+    flex: 0 0 50%;
+    background-image: url(/jquery/img/feature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -70px;
+  }
+  .sub-box41{
+    flex: 0 0 50%;
+    padding-block: 60px;
+    padding-inline: 30px;
+    background-color: #0463FA;
+  }
+  .fa-check{
+    padding: 2px;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+  }
+  .sub-box41 button{
+    padding: 8px 25px ;
+    border: 1px solid white;
+    background:none;
+    border-radius: 25px;
+    color: white;
+   
+  }
+  .sub-box41 h1{
+    font-size: 30px;
+    padding-block: 25px;
+    color: white;
+  }
+  .sub-box41 p{
+    padding-block: 10px;
+    color: white;
+    
+  }
+
+
+  /* article-5 */
+
+  .article-5{
+    padding: 80px;
+  }
+  .main-5{
+    text-align: center;
+  }
+  .main-5 button{
+    padding: 8px 25px ;
+    border: 1px solid rgb(17, 16, 16);
+    background:none;
+    border-radius: 25px;
+    color: rgb(13, 13, 13);
+    margin-bottom: 20px;
+   
+  }
+ 
+  .sub-box5 img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .main-box5{
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    padding-top: 30px;
+  }
+  .sub-box5{
+    flex: 0 0 20%;
+    background-color: #EFF5FF;
+    border-radius: 10px;
+    
+  }
+  .sub-box5 p{
+    text-align: center;
+    padding-block: 5px 20px;
+  }
+  .sub-box5 h3{
+    padding-block: 15px 5px;
+    text-align: center;
+  }
+
+  /* article-6 */
+
+  .article-6{
+    padding: 80px;
+    background-color: #eef3f4;
+
+  }
+  .sub-box6{
+    
+    padding-top: 80px;
+    
+  }
+  .sub-box6 img{
+    width: 70px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .content-6{
+    border: 1px solid rgb(22, 22, 255);
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #0463FA;
+    color: white;
+  }
+  .content-6 p{
+    padding-block: 15px;
+    padding-inline: 35px;
+  }
+  .content-6{
+    text-align: center;
+  }
+  .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #2f2c2c;
+  }
+  .slick-prev{
+    position: absolute;
+    top: 100px;
+    left:480px;
+  }
+  .slick-next{
+    position: absolute;
+    top: 100px;
+    left:730px;
+  }
+  
+  
